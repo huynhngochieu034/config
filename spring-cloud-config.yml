@@ -1,2 +1,26 @@
 data: abv
-
+spring:
+  profiles:
+    active: development
+  # Database
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    #url: "jdbc:postgresql://120.72.83.77:5432/vehicle"
+    url: "jdbc:postgresql://localhost:5432/vehicle"
+    username: vehicle
+    password: 123456
+  # JPA properties
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    open-in-view: false
+    generate-ddl: false
+    # Server configuration
+# App Properties
+  grokonez:
+        app:
+            jwtSecret: jwtGrokonezSecretKey
+            jwtExpiration: 86400
