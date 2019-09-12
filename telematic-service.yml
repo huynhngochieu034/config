@@ -1,4 +1,4 @@
-data: abc
+data: dkmvl
 spring:
   profiles:
     active: development
