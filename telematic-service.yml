@@ -1,4 +1,4 @@
-data: dkmvl
+data: abubu
 spring:
   profiles:
     active: development
