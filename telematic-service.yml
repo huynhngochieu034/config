@@ -6,8 +6,8 @@ spring:
   # Database
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://120.72.83.77:5432/vehicle
-    #url: jdbc:postgresql://localhost:5432/vehicle
+    #url: jdbc:postgresql://120.72.83.77:5432/vehicle
+    url: jdbc:postgresql://localhost:5432/vehicle
     username: vehicle
     password: 123456
   # JPA properties
