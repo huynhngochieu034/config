@@ -1,5 +1,5 @@
 data: dauxanhabc
-ipaddress: localhost
+ipaddress: 168.0.0.1
 spring:
   profiles:
     active: development
