@@ -1,5 +1,5 @@
 data: dauxanh
-ipaddress: 127.0.0.2
+ipaddress: 168.0.0.1
 spring:
   profiles:
     active: development
