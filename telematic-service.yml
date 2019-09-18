@@ -1,4 +1,4 @@
-data: Hello word from tomcat
+data-base: Hello word from tomcat
 ipaddresscors: localhost
 urlinfluxdb: "http://localhost:8086"
 spring:
