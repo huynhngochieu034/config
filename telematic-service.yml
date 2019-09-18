@@ -1,4 +1,5 @@
 data: dauxanh
+ipaddress: localhost
 spring:
   profiles:
     active: development
