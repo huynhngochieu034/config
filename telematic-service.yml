@@ -1,6 +1,6 @@
 data: Hello word from tomcat
-url-influxdb: http://120.72.83.77:8086
-ip-address-cors: localhost
+urlinfluxdb: http://120.72.83.77:8086
+ipaddresscors: localhost
 
 spring:
   profiles:
