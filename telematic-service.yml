@@ -1,5 +1,7 @@
-data: dauxanhabc
-ipaddress: localhost
+data: Hello word from tomcat
+url-influxdb: http://120.72.83.77:8086
+ip-address-cors: localhost
+
 spring:
   profiles:
     active: development
