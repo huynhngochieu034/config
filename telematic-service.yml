@@ -1,6 +1,6 @@
-data-base: Hello word from tomcat
-ipaddresscors: localhost
-urlinfluxdb: "http://localhost:8086"
+
+ip-address-cors: localhost
+url-influxdb: http://localhost:8086
 spring:
   profiles:
     active: development
